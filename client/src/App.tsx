@@ -1,11 +1,13 @@
-
-// this page is rendered at "/" route ( it is the root route of this web app )
+import React from 'react';
+import './App.css';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
-	return (
-		<>
-		</>
-	)
+  return (
+    <BrowserRouter>
+		
+    </BrowserRouter>
+  );
 }
 
 export default App;
